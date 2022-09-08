@@ -110,13 +110,10 @@ a {
 }
 
 .yt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 575px;
 }
 
-.gal-left {
+.gal-left,.yt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,8 +122,6 @@ a {
 #borderimg2 {
     border: 10px solid transparent;
     padding: 15px;
-    /*-webkit-border-image: url(border.png) repeat;
-    -o-border-image: url(border.png) repeat;*/
     border-image: url("border.png") repeat;
     border-image-slice: 10%;
 }
@@ -140,4 +135,17 @@ a {
 .text3 {
     color: #fff;
     text-shadow: 1px -3px 8px darkblue;
+}
+.spanne,.spanno,.spanti {
+    float: left;
+    font-size: 200%;
+}
+.spanti {
+    width: 80px;
+}
+.spanne {
+    width: 120px;
+}
+.spanno {
+    width: 110px;
 }
