@@ -24,7 +24,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border: 1px dotted lightblue;
+    border: 2px outset lightblue;
 }
 
 .main {
